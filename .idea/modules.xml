@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Datamosh.iml" filepath="$PROJECT_DIR$/Datamosh.iml" group="Datamosh" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Datamosh/app" />
+    </modules>
+  </component>
+</project>

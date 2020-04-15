@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.simahero.datamosh.Fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/leave"
+            app:popEnterAnim="@anim/leave"
+            app:popExitAnim="@anim/enter"/>
+        <action
+            android:id="@+id/action_homeFragment_to_inspirationFragment"
+            app:destination="@id/inspirationFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/leave"
+            app:popEnterAnim="@anim/leave"
+            app:popExitAnim="@anim/enter"/>
+        <action
+            android:id="@+id/action_homeFragment_to_tipsFragment"
+            app:destination="@id/tipsFragment"
+            app:enterAnim="@anim/enter"
+            app:exitAnim="@anim/leave"
+            app:popEnterAnim="@anim/leave"
+            app:popExitAnim="@anim/enter"/>
+        <action
+            android:id="@+id/action_homeFragment_to_moshTypeFragment"
+            app:destination="@id/moshTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startMoshFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.StartMoshFragment"
+        android:label="fragment_start_mosh"
+        tools:layout="@layout/fragment_start_mosh" >
+        <action
+            android:id="@+id/action_startMoshFragment_to_cutFragment"
+            app:destination="@id/cutFragment" />
+        <action
+            android:id="@+id/action_startMoshFragment_to_progressFragment"
+            app:destination="@id/progressOIEFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cutFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.CutFragment"
+        android:label="fragment_cut"
+        tools:layout="@layout/fragment_cut" />
+    <fragment
+        android:id="@+id/progressOIEFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.ProgressOIEFragment"
+        android:label="fragment_progress"
+        tools:layout="@layout/fragment_progressoie" >
+        <action
+            android:id="@+id/action_progressFragment_to_checkItOutFragment"
+            app:destination="@id/checkItOutFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.simahero.datamosh.Fragments.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/inspirationFragment"
+        android:name="com.simahero.datamosh.Fragments.InspirationFragment"
+        android:label="fragment_inspiration"
+        tools:layout="@layout/fragment_inspiration" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.simahero.datamosh.Fragments.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/checkItOutFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.CheckItOutFragment"
+        android:label="fragment_check_it_out"
+        tools:layout="@layout/fragment_check_it_out" />
+    <fragment
+        android:id="@+id/moshTypeFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.MoshTypeFragment"
+        android:label="fragment_mosh_type"
+        tools:layout="@layout/fragment_mosh_type" >
+        <action
+            android:id="@+id/action_moshTypeFragment_to_startMoshFragment"
+            app:destination="@id/startMoshFragment" />
+        <action
+            android:id="@+id/action_moshTypeFragment_to_startBloomingFragment"
+            app:destination="@id/startBloomingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startBloomingFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.StartBloomingFragment"
+        android:label="startBloomingFragment" >
+        <action
+            android:id="@+id/action_startBloomingFragment_to_selectFrameFragment"
+            app:destination="@id/selectFrameFragment"
+            app:popUpTo="@id/moshTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectFrameFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.SelectFrameFragment"
+        android:label="fragment_select_frame"
+        tools:layout="@layout/fragment_select_frame" >
+        <action
+            android:id="@+id/action_selectFrameFragment_to_progressWBEFragment"
+            app:destination="@id/progressWBEFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/progressWBEFragment"
+        android:name="com.simahero.datamosh.Fragments.CREATE.ProgressWBEFragment"
+        android:label="fragment_prgress_w_b_e"
+        tools:layout="@layout/fragment_progresswbe" >
+        <action
+            android:id="@+id/action_progressWBEFragment_to_checkItOutFragment"
+            app:destination="@id/checkItOutFragment" />
+    </fragment>
+</navigation>

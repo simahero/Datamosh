@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.arthenica:mobile-ffmpeg-min-gpl:4.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f1de94a53510009ef4433fd567fe453/jetified-mobile-ffmpeg-min-gpl-4.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9f1de94a53510009ef4433fd567fe453/jetified-mobile-ffmpeg-min-gpl-4.3.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arthenica/mobile-ffmpeg-min-gpl/4.3.1/c75a8457ed3754ad9e1bd1a60dd2d1ef821a3c0c/mobile-ffmpeg-min-gpl-4.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.arthenica/mobile-ffmpeg-min-gpl/4.3.1/f905fd49814c5d430f27ae58f4a5e4d60258787e/mobile-ffmpeg-min-gpl-4.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "334665317643",
+    "firebase_url": "https://datamosh.firebaseio.com",
+    "project_id": "datamosh",
+    "storage_bucket": "datamosh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334665317643:android:599bdb01b0a7ad380fb60e",
+        "android_client_info": {
+          "package_name": "com.simahero.datamosh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334665317643-vl8sos4ejrncg9likhvh3m4l3mgd2d38.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simahero.datamosh",
+            "certificate_hash": "5483e96f82bf8113c990ac888ef5b02272a05ebd"
+          }
+        },
+        {
+          "client_id": "334665317643-u1mcq77enplh13n9f8egvqtgrif4hipk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmnhrsf3M77HJFhWquhdMveVd1qRM7yiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334665317643-u1mcq77enplh13n9f8egvqtgrif4hipk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
